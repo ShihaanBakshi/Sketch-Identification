@@ -1,0 +1,46 @@
+body{
+background-color: black;
+}
+
+h1{
+color:white;
+font-family: 'Corinthia', cursive;
+font-size: 40px;
+}
+
+#show_sketch{
+float: right;
+font-size: x-large;
+background-color:grey;
+color: white;
+
+}
+
+#clear_canvas{
+background-color: grey;
+color: white;
+}
+
+h4{
+font-family: 'Corinthia', cursive;
+font-size: 40px;
+}
+
+canvas{
+border: 5px solid grey;
+border-radius: 20px;
+animation-name:example;
+animation-duration: 2s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+
+@keyframes example{
+from{box-shadow: 1px 1px 38px lightslategray;}
+to{box-shadow: 1px 1px 38px white;}
+}
+
+p{
+padding-top: 10px;
+font-size: 25px;
+}
